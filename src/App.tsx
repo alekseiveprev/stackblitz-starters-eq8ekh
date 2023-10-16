@@ -38,7 +38,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
         title={'What to learn'}
         tasks={newFilteredTasks}
         removeTask={removeTask}
-        filterTask={filterTask}
+        filterTask={filterTasks}
       />
     </div>
   );

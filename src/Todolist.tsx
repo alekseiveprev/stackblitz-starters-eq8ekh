@@ -34,7 +34,7 @@ export function Todolist(props: PropsType) {
       </ul>
 
       <div>
-        <button onClick={()=>props.} value={'All'} >All</button>
+        <button onClick={()=>props.removeTask('All')} value={'All'} >All</button>
         <button value={'Active'} >Active</button>
         <button value={'Completed'}  >Completed</button>
       </div>
